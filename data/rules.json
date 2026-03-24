@@ -1,0 +1,65 @@
+{
+  "rules": [
+    {
+      "rule_key": "wall_tie_kusabi",
+      "category": "壁つなぎ間隔",
+      "scaffold_type": "くさび",
+      "vertical_max_m": 5.0,
+      "horizontal_max_m": 5.5,
+      "source": "安衛則570条"
+    },
+    {
+      "rule_key": "wall_tie_next_gen",
+      "category": "壁つなぎ間隔",
+      "scaffold_type": "次世代",
+      "vertical_max_m": 4.0,
+      "horizontal_max_m": 6.0,
+      "source": "次世代足場告示"
+    },
+    {
+      "rule_key": "handrail_height",
+      "category": "手すり高さ",
+      "scaffold_type": "共通",
+      "value_numeric": 85,
+      "value_unit": "cm",
+      "description": "手すりは85cm以上、中さん含む2段設置",
+      "source": "安衛則563条"
+    },
+    {
+      "rule_key": "floor_board_width",
+      "category": "踏み板幅",
+      "scaffold_type": "共通",
+      "value_numeric": 40,
+      "value_unit": "cm",
+      "description": "作業床の幅は40cm以上",
+      "source": "安衛則563条"
+    },
+    {
+      "rule_key": "clearance",
+      "category": "躯体離隔",
+      "scaffold_type": "共通",
+      "value_numeric": 300,
+      "value_unit": "mm",
+      "description": "足場は躯体から300mm離隔して設置する",
+      "source": "実務標準"
+    },
+    {
+      "rule_key": "rooftop_height",
+      "category": "屋上からの高さ",
+      "scaffold_type": "共通",
+      "value_numeric": 1800,
+      "value_unit": "mm",
+      "description": "屋上高さより1800mm高く足場を組む",
+      "source": "実務標準"
+    },
+    {
+      "rule_key": "gap_between_board_and_post",
+      "category": "踏み板と建地の隙間",
+      "scaffold_type": "共通",
+      "value_numeric": 12,
+      "value_unit": "cm",
+      "description": "踏み板と建地（支柱）の隙間は12cm未満",
+      "source": "安衛則563条"
+    }
+  ]
+}
