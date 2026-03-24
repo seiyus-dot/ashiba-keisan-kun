@@ -68,7 +68,7 @@ export async function POST(req: NextRequest) {
     // 1. Claude で寸法抽出
     const response = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 1024,
+      max_tokens: 2048,
       temperature: 0,
       system: SYSTEM_PROMPT,
       messages,
