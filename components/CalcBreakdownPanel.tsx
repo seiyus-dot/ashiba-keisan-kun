@@ -14,7 +14,7 @@ function Row({ label, value }: { label: string; value: string }) {
 }
 
 export default function CalcBreakdownPanel({ bd }: { bd: CalcBreakdown }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   const [openFace, setOpenFace] = useState<string | null>(null)
 
   return (
